@@ -8,3 +8,9 @@ RUN echo "export PYTHONPATH=/home/jovyan/work" >> ~/.bashrc
 
 WORKDIR /home/jovyan/work
 
+
+# DON'T ADD LAB 4 EX 2 FAST API - NOT NEEDED AT THE MODEL LEVEL
+# FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+# RUN pip install scikit-learn==0.22.1 pandas==0.25.3 numpy==1.18.1 fastapi==0.63.0 uvicorn==0.13.3 joblib==1.1.0
+# CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "-c", "/gunicorn_conf.py", "main:app"]
+
